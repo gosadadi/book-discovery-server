@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/api/admin")
-public class AdministrationController {
+public class AdminController {
 
     private AdminService adminService;
 
     @Autowired
-    public AdministrationController(AdminService adminService) {
+    public AdminController(AdminService adminService) {
         this.adminService = adminService;
     }
 
