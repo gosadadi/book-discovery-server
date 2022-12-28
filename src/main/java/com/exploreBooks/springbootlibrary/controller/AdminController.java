@@ -6,7 +6,7 @@ import com.exploreBooks.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("https://discover-a-book-b9551fz98-gosadadi.vercel.app/**")
+@CrossOrigin("https://discover-a-book.vercel.app/**")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
