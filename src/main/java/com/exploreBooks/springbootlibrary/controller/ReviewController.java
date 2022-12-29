@@ -5,7 +5,7 @@ import com.exploreBooks.springbootlibrary.service.ReviewService;
 import com.exploreBooks.springbootlibrary.utils.ExtractJWT;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("https://discover-a-book.vercel.app/**")
+@CrossOrigin("https://discover-a-book.vercel.app")
 @RestController
 @RequestMapping("/api/reviews")
 public class ReviewController {
