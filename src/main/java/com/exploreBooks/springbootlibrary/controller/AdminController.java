@@ -6,7 +6,7 @@ import com.exploreBooks.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("https://discover-a-book.vercel.app, http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://inventory-app-api.vercel.app"})
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
@@ -20,7 +20,7 @@ public class AdminController {
 
     @PutMapping("/secure/increase/book/quantity")
     public void increaseBookQuantity(@RequestHeader(value="Authorization") String token,
-                                     @RequestParam Long bookId) throws Exception {
+                                    @RequestParam Long bookId) throws Exception {
         String admin = ExtractJWT.payloadJWTExtraction(token, "\"userType\"");
         if (admin == null || !admin.equals("admin")) {
             throw new Exception("Administration page only");
