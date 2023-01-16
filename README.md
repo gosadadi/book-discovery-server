@@ -25,7 +25,7 @@ This is a Spring Boot application that provides a RESTful API for storing and ma
 
 <img src="screenshots/login.png" width="500">
 <img src="screenshots/books-list.png" width="500">
-Please note that the above example is just a rough guide, and the specifics of your README will depend on the details of your project.
+
 
 
 
