@@ -1,5 +1,4 @@
 package com.exploreBooks.springbootlibrary.controller;
-
 import com.exploreBooks.springbootlibrary.requestmodels.ReviewRequest;
 import com.exploreBooks.springbootlibrary.service.ReviewService;
 import com.exploreBooks.springbootlibrary.utils.ExtractJWT;
@@ -24,7 +23,7 @@ public class ReviewController {
     }
     @PostMapping("/secure")
     public void postReview(@RequestHeader(value="Authorization") String token,
-                        @RequestBody ReviewRequest reviewRequest) throws Exception{
+                            @RequestBody ReviewRequest reviewRequest) throws Exception{
         String userEmail = ExtractJWT.payloadJWTExtraction(token,"\"sub\"");
         if(userEmail == null){
             throw new Exception("User email is missing");
