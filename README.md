@@ -1,4 +1,4 @@
-## Book-Storage-App
+## Library
 
 This is a Spring Boot application that provides a RESTful API for storing and managing books. It uses Okta for user authentication and authorization.
 
