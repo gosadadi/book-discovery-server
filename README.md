@@ -23,7 +23,7 @@ This is a Spring Boot application that provides a RESTful API for storing and ma
 
 ## Screenshots
 
-<img src="screenshots/login.png" width="500">
+<img src=Screenshot 2023-01-26 at 7.37.52 PM.png width="500">
 <img src="screenshots/books-list.png" width="500">
 
 
