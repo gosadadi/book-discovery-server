@@ -24,7 +24,7 @@ This is a Spring Boot application that provides a RESTful API for storing and ma
 ## Screenshots
 
 <img src="https://github.com/gosadadi/images/blob/main/Screenshot%202023-01-26%20at%207.37.52%20PM.png" width="500">
-<img src="screenshots/books-list.png" width="500">
+<img src="https://github.com/gosadadi/images/blob/main/Screenshot%202023-01-26%20at%207.38.44%20PM.png" width="500">
 
 
 
